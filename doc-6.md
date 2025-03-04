@@ -34,14 +34,16 @@ Ce document a pour objectif d’accompagner les utilisateurs dans la connexion �
      ![Clic droit sur "Ce PC"](image12.png)
    - Sélectionnez **"Connecter un lecteur réseau"** dans le menu contextuel.
 
-3. **Configuration du lecteur réseau**  
+3. **Configuration du lecteur réseau Public**  
    - Dans la fenêtre qui s’ouvre, indiquez la lettre de lecteur souhaitée.  
-   - Dans le champ **"Dossier"**, entrez l’adresse du partage réseau tel qu’indiqué (par exemple, `\\100.64.0.29\NomDuPartage`).  
+   - Dans le champ **"Dossier"**, entrez l’adresse du partage réseau tel qu’indiqué (`\\100.64.0.29\public`).  
    - Cliquez sur **Terminer** pour valider.  
    ![Configuration du lecteur réseau](image13.png)
 
-4. **Vérification de la connexion**  
-   Si une nouvelle fenêtre apparaît pour confirmer l’accès ou pour demander de saisir à nouveau vos identifiants, assurez-vous d’utiliser ceux que vous avez enregistrés précédemment.  
+4. **Configuration du lecteur réseau Perso**  
+   - Dans la fenêtre qui s’ouvre, indiquez la lettre de lecteur souhaitée.  
+   - Dans le champ **"Dossier"**, entrez l’adresse du partage réseau tel qu’indiqué (`\\100.64.0.29\perso`).  
+   - Cliquez sur **Terminer** pour valider.    
    ![Confirmation de connexion au lecteur réseau](image14.png)
 
 ---
