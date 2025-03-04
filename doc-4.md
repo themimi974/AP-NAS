@@ -84,8 +84,3 @@ Vous disposez désormais d’un **serveur NAS fonctionnel** sous OpenMediaVault,
 
 Cette configuration de base pourra être étendue (par exemple, en ajoutant des droits spécifiques par groupe ou d’autres fonctionnalités) et servira de fondation pour la création d’une documentation utilisateur détaillée.
 
----
-
-*Fin du document.*  
-*N'oubliez pas d'insérer les captures d'écran aux emplacements indiqués pour illustrer chaque étape.*
-
