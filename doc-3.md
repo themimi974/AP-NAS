@@ -1,6 +1,6 @@
 # Comparaison Approfondie des Solutions RAID
 
-Dans le cadre d’un **cluster multi-site** conçu pour offrir une **haute disponibilité** (HA) et des **migrations en temps réel**, nous avons déployé un serveur **OpenMediaVault** en tant que solution NAS. L’ensemble est hébergé sur un **stockage distribué Linstor/DRBD**, permettant ainsi la réplication immédiate des données entre les différents nœuds du cluster.
+Dans le cadre d’un **cluster multi-site** (voir: https://dorian.finkel.fr/proxmox.html) conçu pour offrir une **haute disponibilité** (HA) et des **migrations en temps réel**, nous avons déployé un serveur **OpenMediaVault** en tant que solution NAS. L’ensemble est hébergé sur un **stockage distribué Linstor/DRBD**, permettant ainsi la réplication immédiate des données entre les différents nœuds du cluster.
 
 - **Sur le serveur Dell PowerEdge (dell1)**, nous avons mis en place un **RAID 1 matériel** via la carte RAID intégrée. Cette configuration assure une première couche de redondance locale : en cas de défaillance d’un des disques, le serveur reste opérationnel.
 - **Au niveau du cluster**, les données sont ensuite **répliquées en temps réel** grâce à **DRBD/Linstor**. Cette réplication garantit une disponibilité accrue et autorise la migration à chaud de la VM OpenMediaVault, sans interruption de service.  
